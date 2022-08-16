@@ -1,0 +1,35 @@
+1.Selenium:
+         selenium is an open source toolthat automates web browsers. selenium webDriver is a web framework that premits you to execute cross browser tests.
+  Four major different selenium compontents are  selenium IDE,selenium RC,selenium web driver,selenium GRID.
+
+2.selenium communicate with web browser:
+        selenium script creates an HTTP request for each selenium command and sends it to the browser driver.An HTTP request is then sent to the server using browser driver.
+
+3:Locators available in selenium:
+By CSS ID:find_element_by_id.
+by css class name:find_element_by_class_name.
+by name attribute:find_element_by_name.
+by link text:find_elememt_by_link_text.
+
+4.Id is preferable than xpath:
+  By.ID() is the faster technique because as its root,the call goes down to document .
+  getElementById(),which is optimized by most browsers.
+
+5.Select value in dropdown:
+  To use the selectByValue method and pass the value attribute of the option that  we want to select as a parameter to that method.
+
+6.Absolute path:
+    Absolute path is a complete path from start of actual file system from directory.
+    Absolute URL contains all the information necessary to locate a resource.
+ Relative path:
+   Relative path is defined as the path related to the present working directly (pwd).
+   Relative URL locates a resource using an absolute URL as a starting point.
+8. System.setProperty and WebDriver:
+  System.setProperty("webDriver.chrome.driver", "/path/to/chromedriver");
+  System.setProperty("Selenide.browser","Chrome");
+  open ("http://google.com")
+
+
+10.Attribute value using an selenium webDriver:
+    The getAttribute() method is used to obtain the value of an attribute in an html document.
+    In an html code,attribute and its value appear as a key value pair.
